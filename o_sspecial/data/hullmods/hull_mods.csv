@@ -1,0 +1,10 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
+Something Special,o_sspecial_unlock,,,,,,,,,,0,0,0,0,hullmods.HullMod_Unlock,This ship has additional potential modifications to be made. Weapon mounts must be unlocked through spending OP.,,,
+Weapon Unlock,o_sspecial_unlock_weapon_1,,,,,,,,TRUE,TRUE,10,0,0,0,hullmods.HullMod_Unlock_Weapon1,Unlocks weapon,,,
+Weapon Unlock,o_sspecial_unlock_weapon_2,,,,,,,,TRUE,TRUE,10,0,0,0,hullmods.HullMod_Unlock_Weapon1,Unlocks weapon,,,
+Weapon Unlock,o_sspecial_unlock_weapon_3,,,,,,,,TRUE,TRUE,10,0,0,0,hullmods.HullMod_Unlock_Weapon1,Unlocks weapon,,,
+Weapon Unlock,o_sspecial_unlock_weapon_4,,,,,,,,TRUE,TRUE,10,0,0,0,hullmods.HullMod_Unlock_Weapon1,Unlocks weapon,,,
+Weapon Unlock,o_sspecial_unlock_weapon_5,,,,,,,,TRUE,TRUE,10,0,0,0,hullmods.HullMod_Unlock_Weapon1,Unlocks weapon,,,
+Weapon Unlock,o_sspecial_unlock_weapon_6,,,,,,,,TRUE,TRUE,10,0,0,0,hullmods.HullMod_Unlock_Weapon1,Unlocks weapon,,,
+Weapon Unlock,o_sspecial_unlock_weapon_7,,,,,,,,TRUE,TRUE,10,0,0,0,hullmods.HullMod_Unlock_Weapon1,Unlocks weapon,,,
+Weapon Unlock,o_sspecial_unlock_weapon_8,,,,,,,,TRUE,TRUE,10,0,0,0,hullmods.HullMod_Unlock_Weapon1,Unlocks weapon,,,

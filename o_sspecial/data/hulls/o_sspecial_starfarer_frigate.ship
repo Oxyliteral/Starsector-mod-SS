@@ -1,0 +1,184 @@
+{
+    "hullName": "Starfarer",
+    "hullId": "o_sspecial_starfarer_frigate",
+    "hullSize": "FRIGATE",
+    "style": "THREAT",
+    "spriteName": "graphics/ships/o_sspecial_starfarer_frigate.png",
+    "height": 82,
+    "width": 62,
+    "center": [
+        31, 41
+    ],
+    "moduleAnchor": [
+        0, 0
+    ],
+    "collisionRadius": 50,
+    "coversColor": "128,128,128,255",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 45,
+    "viewOffset": 0,
+    "builtInWings": [],
+    "builtInMods": [
+        "o_sspecial_unlock"
+    ],
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 360,
+            "angle": 0,
+            "locations": [
+                      29,        0
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 360,
+            "angle": 0,
+            "locations": [
+                    26.5,      -18
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 360,
+            "angle": 0,
+            "locations": [
+                    26.5,       18
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 360,
+            "angle": 270,
+            "locations": [
+                       8,      -21
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 360,
+            "angle": 90,
+            "locations": [
+                       8,       21
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 360,
+            "angle": 180,
+            "locations": [
+                     -13,        0
+            ]
+        },
+        {
+            "id": "WS 006",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 360,
+            "angle": 180,
+            "locations": [
+                   -10.5,      -18
+            ]
+        },
+        {
+            "id": "WS 007",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 360,
+            "angle": 180,
+            "locations": [
+                   -10.5,       18
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -21.5, 12.5
+            ],
+            "length": 10.5,
+            "width": 2,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "DWELLER"
+        },
+        {
+            "location": [
+                -21.5, -12.5
+            ],
+            "length": 10.5,
+            "width": 2,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "DWELLER"
+        },
+        {
+            "location": [
+                -22.5, 6
+            ],
+            "length": 12.5,
+            "width": 2,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "DWELLER"
+        },
+        {
+            "location": [
+                -22.5, -6
+            ],
+            "length": 12.5,
+            "width": 2,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "DWELLER"
+        },
+        {
+            "location": [
+                -23.5, 0
+            ],
+            "length": 17,
+            "width": 1,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "DWELLER"
+        },
+        {
+            "location": [
+                -23.5, 0
+            ],
+            "length": 10,
+            "width": 2,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "DWELLER"
+        }
+    ],
+    "bounds": [
+           -40.5,       31,
+              41,       31,
+              41,      -31,
+           -40.5,      -31
+    ]
+}

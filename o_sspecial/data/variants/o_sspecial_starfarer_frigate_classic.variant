@@ -1,0 +1,26 @@
+{
+    "displayName": "Classic",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "o_sspecial_starfarer_frigate",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "o_sspecial_starfarer_frigate_classic",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 000": "lightag",
+                "WS 001": "lightag",
+                "WS 002": "lightag",
+                "WS 003": "lightag",
+                "WS 004": "lightag",
+                "WS 005": "lightag",
+                "WS 006": "lightag",
+                "WS 007": "lightag"
+            }
+        }
+    ]
+}
