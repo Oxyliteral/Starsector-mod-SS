@@ -1,0 +1,34 @@
+{
+    "displayName": "Classic",
+    "fluxCapacitors": 20,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "o_sspecial_starfarer_destroyer",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "o_sspecial_starfarer_destroyer_classic",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "heavyneedler",
+                "WS 001": "heavyneedler",
+                "WS 002": "heavyneedler",
+                "WS 004": "heavyneedler",
+                "WS 003": "heavyneedler",
+                "WS 005": "heavyneedler",
+                "WS 006": "heavyneedler",
+                "WS 007": "lightag",
+                "WS 008": "lightag",
+                "WS 009": "lightag",
+                "WS 010": "lightag",
+                "WS 011": "lightag",
+                "WS 012": "lightag",
+                "WS 013": "lightag",
+                "WS 014": "lightag",
+                "WS 015": "lightag"
+            }
+        }
+    ]
+}
