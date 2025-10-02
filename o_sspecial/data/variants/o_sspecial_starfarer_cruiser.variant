@@ -1,0 +1,36 @@
+{
+    "displayName": "Classic",
+    "fluxCapacitors": 30,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "o_sspecial_starfarer_cruiser",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "o_sspecial_starfarer_cruiser_classic",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 000": "multineedler",
+                "WS 001": "multineedler",
+                "WS 002": "multineedler",
+                "WS 003": "heavyneedler",
+                "WS 004": "heavyneedler",
+                "WS 005": "heavyneedler",
+                "WS 006": "heavyneedler",
+                "WS 007": "heavyneedler",
+                "WS 008": "heavyneedler",
+                "WS 009": "lightag",
+                "WS 010": "lightag",
+                "WS 011": "lightag",
+                "WS 012": "lightag",
+                "WS 013": "lightag",
+                "WS 014": "lightag",
+                "WS 015": "lightag",
+                "WS 016": "lightag",
+                "WS 017": "lightag"
+            }
+        }
+    ]
+}
