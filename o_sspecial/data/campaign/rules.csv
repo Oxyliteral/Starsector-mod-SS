@@ -1,4 +1,0 @@
-id,trigger,conditions,script,text,options,notes
-o_sspecial_ngcStart,AddNewGameChoices,,"SetTooltip o_sspecial_ngcStarfarer ""Picking this option will allow you to start with Something Special, a heavy modifiable ship that can be customized to suit your needs.""",,"6:o_sspecial_ngcStarfarer:""Something Special."" (modded-custom)",
-o_sspecial_ngcStarfarerPicked,NewGameOptionSelected,$option == o_sspecial_ngcStarfarer,"NGCAddShip o_sspecial_starfarer_frigate_start
-FireAll NGCSecondShipOptions",,,
