@@ -1,0 +1,12 @@
+type,name,tier,id,max_init,max,cost_op,cost_sp,require,require_tier,description,sprite,show,hullsize,type_mod
+1,Tiers,,o_sspecial_unlock_tier,10,5,,2,,-1,Required to unlock upgrades.,,,,1
+2,OP,,o_sspecial_unlock_op,10,5,,2,,,Increases max OP.,,true,,1
+3,Weapons,,o_sspecial_unlock_weapon,30,20,,,,,Unlocks weapon mounts. Automatically managed by adding/removing weapons from mounts.,,,,
+4,Flux Capacity,,o_sspecial_unlock_flux_c,10,5,,,,+0,Increases Flux Capacity.,,,,
+5,Flux Dissipation,,o_sspecial_unlock_flux_d,10,5,,,,+0,Increases Flux Dissipation,,,,
+6,Handling,,o_sspecial_unlock_handling,10,3,,,,,Improves the ship's handling.,,,,
+7,Combat Readiness,,o_sspecial_unlock_cr,10,3,,,,,Improves CR-related parameters.,,,,
+8,Logistics,,o_sspecial_unlock_logistic,10,4,,,,+0,Improves the ship's logistical parameters.,,,,
+9,ECM,,o_sspecial_unlock_ecm,10,3,,,,,Improves Sensor parameters.,,,,
+10,Hull,,o_sspecial_unlock_hull,10,1,,4,,,Upgrades the Hullsize of the ship.,,,,
+1,,1,,,,,0,,,,,,,

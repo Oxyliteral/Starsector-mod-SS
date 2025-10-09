@@ -1,0 +1,21 @@
+{
+    "displayName": "Start",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "goalVariant": false,
+    "hullId": "o_sspecial_starfarer_frigate",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "o_sspecial_starfarer_frigate_start",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "lightneedler",
+                "WS 001": "lightneedler",
+                "WS 002": "lightneedler"
+            }
+        }
+    ]
+}
