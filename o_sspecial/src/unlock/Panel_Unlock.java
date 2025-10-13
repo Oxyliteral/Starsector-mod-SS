@@ -200,11 +200,11 @@ public class Panel_Unlock extends BaseRefitButton {
                         boolean isUpgrade = type == 10;
                         if (button.getValue()) {
                             if (!variant.hasHullMod(id)) {
-                                if (hullModType == 0) {
-                                    variant.addMod(id);
+                                if (hullModType == 2) {
+                                    variant.addPermaMod(id, spCost > 0);
                                 }
                                 else {
-                                    variant.addPermaMod(id, spCost > 0);
+                                    variant.addMod(id);
                                 }
                                 if (spCost > 0) {
                                     player.getStats().spendStoryPoints(spCost, true, null, true, Settings_Mod.Unlock_Panel_GetStoryPointMessage().formatted(spCost));
@@ -313,7 +313,7 @@ public class Panel_Unlock extends BaseRefitButton {
                 variant.clearSlot(weaponSlot);
             }
         }
-        playerFleet.removeFleetMemberWithDestructionFlash(member);
+        playerFleet.getFleetData().removeFleetMember(member);
         Global.getSector().getCampaignUI().showCoreUITab(CoreUITabId.FLEET);
     }
 

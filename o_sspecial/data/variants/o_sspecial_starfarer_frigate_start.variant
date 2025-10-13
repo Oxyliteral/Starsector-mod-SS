@@ -1,5 +1,5 @@
 {
-    "displayName": "Start",
+    "displayName": "",
     "fluxCapacitors": 10,
     "fluxVents": 10,
     "goalVariant": false,
@@ -14,7 +14,12 @@
             "weapons": {
                 "WS 000": "lightneedler",
                 "WS 001": "lightneedler",
-                "WS 002": "lightneedler"
+                "WS 002": "lightneedler",
+                "WS 003": "lightneedler",
+                "WS 004": "lightneedler",
+                "WS 005": "lightneedler",
+                "WS 006": "lightneedler",
+                "WS 007": "lightneedler"
             }
         }
     ]
