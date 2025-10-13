@@ -19,6 +19,5 @@ public class ModPlugin extends BaseModPlugin {
         Settings_Mod.Init();
         Settings_Mod.Init_CreateData();
         LunaRefitManager.addRefitButton(new Panel_Unlock());
-        Global.getLogger(this.getClass()).log(Priority.DEBUG, Global.getSettings().getHullModSpec("o_sspecial_unlock_weapon"));
     }
 }

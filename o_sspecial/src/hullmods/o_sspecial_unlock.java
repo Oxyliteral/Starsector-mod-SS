@@ -13,6 +13,14 @@ public class o_sspecial_unlock extends BaseHullMod {
             return;
         }
         ShipVariantAPI variant = stats.getVariant();
+        var spec = variant.getHullSpec();
+        if (spec != null) {
+            for (var tag : spec.getTags()) {
+                if (!variant.hasTag(tag)) {
+                    variant.addTag(tag);
+                }
+            }
+        }
         var weapons = variant.getHullSpec().getAllWeaponSlotsCopy();
         for (int i = 0; i < weapons.size(); i++) {
             String mod = Settings_Mod.Unlock_Panel_Weapons_GetId(i);
